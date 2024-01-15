@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.32em;
 }
 
 .caption {
@@ -13,16 +13,16 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 1.12em;
 }
 
-h2 {
+.heading {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.72em;
   text-transform: capitalize;
 }
 
@@ -31,14 +31,14 @@ h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4em;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -47,7 +47,7 @@ h2 {
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.64em;
 }
 
 .btn:hover,
@@ -62,16 +62,16 @@ h2 {
 
 .logo-text {
   color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .logo {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 a {
@@ -84,16 +84,22 @@ ul {
 
 .navigation .link {
   color: #2e2f42;
+  font-weight: 500;
 }
 
 .navigation .link:hover,
-.navigation .link:active {
+.navigation .link:focus {
   color: #404bbf;
+}
+
+address {
+  font-style: normal;
 }
 
 .social .link {
   color: #434455;
   font-style: normal;
+  font-weight: 500;
 }
 
 .social .link:hover,
@@ -119,7 +125,7 @@ ul {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.54em;
   text-transform: uppercase;
 }
 
@@ -129,4 +135,10 @@ ul {
 
 .footer-text {
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
