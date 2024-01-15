@@ -1,19 +1,19 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.32em;
 }
 
-h1 {
+.caption {
   color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 1.12em;
 }
 
 h2 {
@@ -22,28 +22,36 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.72em;
   text-transform: capitalize;
 }
 
-h3 {
+.subject {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4em;
 }
 
-button {
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.64em;
 }
 
-button:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 
@@ -54,11 +62,11 @@ button:hover {
 
 .logo-text {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.54em;
   text-transform: uppercase;
 }
 
@@ -88,7 +96,8 @@ ul {
   font-style: normal;
 }
 
-.social .link:hover {
+.social .link:hover,
+.social .link:focus {
   color: #404bbf;
 }
 
@@ -96,17 +105,21 @@ ul {
   background-color: #f4f4fd;
 }
 
-footer {
+.name-list {
+  background-color: #ffffff;
+}
+
+.footer-box {
   background-color: #2e2f42;
 }
 
 .footer-logo-text {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.54em;
   text-transform: uppercase;
 }
 
