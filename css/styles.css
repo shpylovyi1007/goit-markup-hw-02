@@ -13,7 +13,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12em;
+  letter-spacing: 0.02em;
 }
 
 .heading {
@@ -22,7 +22,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -47,7 +47,7 @@ body {
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64em;
+  letter-spacing: 0.04em;
 }
 
 .btn:hover,
@@ -85,6 +85,7 @@ ul {
 .navigation .link {
   color: #2e2f42;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .navigation .link:hover,
@@ -100,6 +101,7 @@ address {
   color: #434455;
   font-style: normal;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .social .link:hover,
@@ -131,14 +133,16 @@ address {
 
 .footer-logo {
   color: #4d5ae5;
-}
-
-.footer-text {
-  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
