@@ -82,14 +82,16 @@ ul {
   list-style-type: none;
 }
 
-.navigation .link {
+.link {
   color: #2e2f42;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.navigation .link:hover,
-.navigation .link:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
