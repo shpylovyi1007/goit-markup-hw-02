@@ -82,7 +82,7 @@ ul {
   list-style-type: none;
 }
 
-.link {
+.navigation .link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -90,8 +90,8 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:focus {
+.navigation .link:hover,
+.navigation .link:focus {
   color: #404bbf;
 }
 
