@@ -31,7 +31,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.02em;
 }
 
 .text {
@@ -93,7 +93,7 @@ ul {
   color: #404bbf;
 }
 
-address {
+.address-social {
   font-style: normal;
 }
 
